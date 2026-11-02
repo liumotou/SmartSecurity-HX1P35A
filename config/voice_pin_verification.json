@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-17 Asia/Shanghai",
+  "official_notice": "https://www.anlogic.com/support/university/competitions/eda/news1/42.html",
+  "official_guide": "https://www.anlogic.com/Public/Uploads/ueditor/upload/file/20260826/1787734941769836.pdf",
+  "guide_pdf_page": 8,
+  "official_share": "https://pan.baidu.com/s/12hjB7BiAxT3CIVqzh4Amnw",
+  "share_code": "Q614",
+  "folder": "HX1P35A_Contest_202606/3_原理图/开发板原理图",
+  "fpga_schematic": "HX1P35B_FT_40P_2.pdf",
+  "gpio_schematic": "HX1P35B_FT_40P_6.pdf",
+  "fpga_device": "PH1P35MDG324",
+  "connector": "J1",
+  "connector_pin": 1,
+  "connector_net": "GPIOA_0",
+  "fpga_net": "GPIOA0",
+  "fpga_pin": "V2",
+  "bank": 22,
+  "bank_supply": "VCC_3V3",
+  "schematic_mapping_verified": true,
+  "existing_adc_conflict": false,
+  "actual_pcb_revision_verified": false,
+  "hardware_wiring_tested": false,
+  "peer_document_correction": "C18 is GPIOB0 on BANK32, routed to J2 pin1; not GPIOA0/J1 pin1.",
+  "evidence": [
+    {
+      "file": "build/verification/official_gpio_preview.png",
+      "kind": "browser screenshot of official share PDF preview",
+      "sha256": "a04a20585c85bd0bda90d729908a6ec47b9ee8fc7ded076705fab77430fb1e0d"
+    },
+    {
+      "file": "build/verification/official_fpga_preview_image.bin",
+      "kind": "JPEG image already rendered by official shared PDF viewer; not original PDF",
+      "sha256": "9e2a41342173637dc724eecde93f5f04cfee4571136dd6a8fa4694705735f805"
+    },
+    {
+      "file": "build/verification/official_bank22_detail.png",
+      "kind": "crop of the viewer image for readable V2/GPIOA0 wire verification",
+      "sha256": "3d4e0e6f171a83d6e1dde29d1f6c1fbdac0a4726206b78dc25ec36762ede8542"
+    },
+    {
+      "file": "build/verification/official_fpga_preview.svg",
+      "kind": "DOM visible text overlay of PDF preview; not original PDF",
+      "sha256": "bb4a2e3bdac2081a03dc5352d674ce5e7adeff901ca1d97260d855722b6f6b23"
+    },
+    {
+      "file": "build/verification/official_j1_detail.png",
+      "kind": "readable J1 connector crop from browser screenshot",
+      "sha256": "cfb7653939dd950375b9da6fe58e4a25bb26145376f2f3dfbb0c51467f0aac4d"
+    }
+  ],
+  "power_pins": {
+    "J1_11": "VCC_5V",
+    "J1_12": "GND",
+    "J1_29": "VCC_3V3",
+    "J1_30": "GND"
+  }
+}

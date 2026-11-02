@@ -1,0 +1,31 @@
+{
+  "version": "20261027-scene-metrics-original-osd",
+  "packaged_date": "2026-11-03",
+  "top": "design_top_wrapper",
+  "device": "PH1P35MDG324",
+  "td_project": "lab_ex3_osd/td_project/camera_to_dsi_display.al",
+  "bit_file": "bitstream/SMART_SECURITY_HX1P35A.bit",
+  "bit_sha256": "27566cc8489f92325bd782be9d816d8a481037d562f4ef70bf848c89863fb8f7",
+  "bit_size": 1789539,
+  "full_build_verified": true,
+  "timing_ns": {
+    "SWNS": 1.139,
+    "HWNS": 0.02
+  },
+  "resources": {
+    "slice": 15154,
+    "lut6": 13651,
+    "reg": 13246,
+    "eram": 69,
+    "dsp": 14
+  },
+  "source_unchanged_during_build": true,
+  "original_inputs_checked": 171,
+  "intentional_path_changes": [
+    "lab_ex3_osd/td_project/camera_to_dsi_display.al",
+    "lab_ex3_osd/user_source/hdl_source/anlogic_logo_rom.v"
+  ],
+  "rtl_function_pin_clock_changes": false,
+  "jtag_download_performed": false,
+  "identical_to_original_release_bit": false
+}
